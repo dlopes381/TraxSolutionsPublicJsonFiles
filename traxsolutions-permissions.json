@@ -1,0 +1,1724 @@
+[
+  {
+    "Category": "Administration",
+    "Permission": "Can Edit Organization Contacts",
+    "Description": "this permission allows the user to add/edit contacts for the organization.  Without this permission the user will be able to access the contact tab and view contacts but will get an Access Denied message when trying to add or edit.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Announcements",
+    "Description": "Allows Access To Admin > Home > Annoucnemnts. Currently does nothing. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage CSDW Dimensions",
+    "Description": "Controls whether the landing page item to manage dimensions is enabled and prevents access to the controller methods relating to dimension management.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Data Entry Forms",
+    "Description": "this permission allows the user to add, edit or delete Data Entry Forms for both Participants and Households.  Without this permission the “Manage Data Entry Forms” value will not display in the Admin dropdown menu and the user will get error message when selecting “Manage Data Entry Forms” option from the Admin homepage.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Data Sharing",
+    "Description": "Allows access to Admin > Manage Data Security. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Dynamic Data",
+    "Description": "Allows complete access to Create and Edit all Dynamic (custom) data. Has no impact on a user's ability to add,edit,or delete the actual values found under participant > details though.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Hierarchies",
+    "Description": "this permission allows the user to configure the Search Hierarchy.  Without this permission the Hierarchy Management function will be suppressed from the Admin dropdown menu.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage ID Card Templates",
+    "Description": "Allows access to Admin > Home > Manage Participant ID Card Templates. But Not Directly from admin menu. Only CSA shows them in the Admin menu directly see notes. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Impact Charts",
+    "Description": "Allows access to Participant > Outcome Measurement  > Impact Charts",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Lookups",
+    "Description": "Allows access to add/edit all default lookup values at a site. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Organization Settings",
+    "Description": "this permission allows the user to manage any settings in the “Settings” tab in Organization Management.  Without this permission the user will be able to access the tab but will get an Access Denied message when trying to change a setting value.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Organizations",
+    "Description": "this permission allows the user to access and edit organization details through the green “Edit” button.  Without this permission the user will get an Access Denied message when clicking the button.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Participant Membership Mode",
+    "Description": "Obsolote organization setting. ",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Printing Templates",
+    "Description": "Redundcant it would seem. ID card templates have their own indivdiual permissions. ",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Scans",
+    "Description": "Allows access to Scan Management. TAM licenses, Edit Attendacne and Scanner Schedule",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Tips",
+    "Description": "",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Manage Waivers",
+    "Description": "Allows access to the waivers area which can append text to OLR forms and PIF. Almost useless.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Map CSDW Data",
+    "Description": "this permission allows the user access to the CSDW Data mapping function.  Without this role the menu option will not appear for the user.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Map NYOI Data",
+    "Description": "this permission allows the user access to the NYOI Data mapping function.  Without this role the menu option will not appear for the user.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Remove Activity",
+    "Description": "this permission allows the user to remove an activity and its associated data from his/her own organization and all related child organizations below it.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Remove Person",
+    "Description": "this permission allows the user to remove a person/participant’s record and its associated data from his/her own Organization and all related child organizations below it.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Remove Program",
+    "Description": "this permission allows the user to remove a program and its associated data (including activities) from his/her own organization and all related child organizations below it.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Submit CSDW Data",
+    "Description": "Controls whether the landing page item to submit data is enabled and prevents access to related controller methods.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can Use Data Transfer",
+    "Description": "Allows Full Access to Admin > Data Transfer for importing / uploading Excel Templates. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Can View CSDW Submission Status",
+    "Description": "Controls whether the landing page item to review submission status is enabled and prevents access to related controller methods",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Client System Admin",
+    "Description": "this is a special, all-encompassing permission that not only allows the user access to the entire application but allows the user to perform any function in the application as well.  With this permission an administrator will automatically have his/her account updated with newly added permissions and can then distribute them to other users in his/her organization.  It is recommended that this permission only be given to the top administrators of the organization.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "Data Export",
+    "Description": "this permission allows the user to export data to Access via the Data Export function in the Admin dropdown.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Administration",
+    "Permission": "TraxFacts Admin",
+    "Description": "",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Audit Log",
+    "Permission": "Can Export Audit Log",
+    "Description": "Obsolete. There is no audit log accessible through Trax. User log viewing would requrie Can Manage User Organizations ",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Audit Log",
+    "Permission": "Can Purge Audit Logs",
+    "Description": "Obsolete. There is no audit log accessible through Trax. User log viewing would requrie Can Manage User Organizations ",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Audit Log",
+    "Permission": "Can View Audit Logs",
+    "Description": "Obsolete. There is no audit log accessible through Trax. User log viewing would requrie Can Manage User Organizations ",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Can Close Cases",
+    "Description": "this permission allows the user to close cases in Case Management. Without this permission the “Close” action button for each case will be disabled.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Can Create Cases",
+    "Description": "this permission allows the user to create/add new cases in Case Management.  Without this permission the “Add New Case” button in the Open Cases grid will be deactivated, as well as the “New Case” button in the Search Results grid.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Can Delete Cases",
+    "Description": "this permission allows the user to delete case using the “Delete” buttons in either the Manage Open Cases or Manage Closed Cases grid.  Without this permission the “Delete” button will be deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Can Manage Case Contacts",
+    "Description": "Allows you to delete case contacts as well as edit them. Without this (or CSA/Case Admin, you can't edit or delete case contacts) ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Can Re Open Cases",
+    "Description": "Allows you to click the re-open case button on a case in the grid of the Case Management landing page. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Can View All Cases",
+    "Description": "this permission allows the user to view all cases in Case Management.  Without this permission the user will only see cases that they are assigned to as Case Mgrs.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Case Management",
+    "Permission": "Case Manager",
+    "Description": "this permission allows the user to add, view and edit any cases to which he/she is specifically assigned.  This permission or the Case Admin permission is necessary for accessing the Case Management Module.  Without this permission (or the Case Admin permission) the Case Management value will be suppressed from the Participant dropdown menu.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Communications Management",
+    "Permission": "Can Manage Communications",
+    "Description": "Allows access TraxTalk features and enables the Manage System Notifications for Online Registration. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Dashboard",
+    "Permission": "Can View Dashboard",
+    "Description": "allow the user to view the Trax dashboards when clicking the Dashboards menu item.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Households",
+    "Permission": "Can Add Households",
+    "Description": "this permission allows the user to add households to the Database through the Add Households function on the Household Management landing page. Without this permission the user will receive the “access denied” message after the user performs the search and then selects the data entry form.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Households",
+    "Permission": "Can Edit Households",
+    "Description": "this permission allows the user to update/edit any of the data fields that are part of the Household Management module.  This includes contact fields accessible through the Household and Contact Information tab in Participant Detail.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Households",
+    "Permission": "Can Manage Households",
+    "Description": "this permission allows the user to assign persons/participants to households through the Manage Household option of the Household Management landing page. Without this permission the user will receive the “access denied” message at the end of the process.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Households",
+    "Permission": "Can View Households",
+    "Description": "this permission allows the user to view Household information in the Household Management module.  Without this permission the user will be denied access to all the options on the Household Management landing page, however, the user can still view much household detail from the Household and Contact Information tab in the Participant Detail Page.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Accept Payment",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Can Issue Unconditional Refund",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Can Manage Program Discounts",
+    "Description": "Allows access to the Program Discounts tab once you view a moneytrax account. And of course the org setting needs to be enabled. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Can Manage Transaction Periods",
+    "Description": "Allows the ability to create billing cycles at a single site or Admin site. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Can Merge MoneyTrax Accounts",
+    "Description": "Allows Access to Participant > Moneytrax > Merge tool. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Can Unconditionally Delete Account",
+    "Description": "Allows Access to the Delete button on accounts in the Grid after searching In Moneytrax > Manage Accounts. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Charge Fee",
+    "Description": "this permission allows the user to charge ad-hoc fees from within Moneytrax.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Generate Invoices",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Issue Credit",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Issue Refund",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Manage Accounts",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Money Management",
+    "Description": "This permission will grant a user access to the Moneytrax module. Along with this permission the user will also want to at least give the permission Manage Accounts.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Money Trax:Can Zero Account",
+    "Description": "Allows access to the Zero Account button in the Grid after searching in Moneytrax > Manage accoutns. Assuming of course this has been enabled by speciacl TFS request in the org settings. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "View Account",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "View Invoice",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Money Management",
+    "Permission": "Void Charge",
+    "Description": "Redundant. Granted with Money Management. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Online Registration",
+    "Permission": "Can Manage Membership Queue",
+    "Description": "Allows Full access to Online Registration > New Account Queue to approve, deny etc. But also the tab item itself to link to OLR now. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Others Served",
+    "Permission": "Can Manage Others Served",
+    "Description": "Allows Full access to Participant > Others Served. Including Youth and Adult. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Outcome Measurement",
+    "Permission": "Can Manage Logic Models",
+    "Description": "this permission allows the user to create and edit logic models.  Without this permission user will access “Add New Logic Model” button, and can access the “Edit” button of logic models, but will receive an “access denied” message when clicking save.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Outcome Measurement",
+    "Permission": "Can Manage Metrics",
+    "Description": "this permission allows the user to add and edit (if at the appropriate Organization level) metrics for outcomes.  Without this permission the user will receive the “access denied” message when clicking the “Add Metric” or “Edit” buttons.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Outcome Measurement",
+    "Permission": "Can Manage Outcomes",
+    "Description": "this permission allows the user to access the “Manage Outcomes” option of the Outcome Measurement Module.  Without this permission the user will receive an “Access Denied” message when selecting the “Manage Outcomes” option from the Outcome Measurement landing page. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Outcome Measurement",
+    "Permission": "Can View Outcomes",
+    "Description": "Redundant as you just need Can Manage Outcomes but there may be some use not accounte for yet. ",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Add Participants",
+    "Description": "this permission allows the user to add a new person/participant into Trax.  Without this permission the user will be able to select “add/re-enroll” and perform a search but selecting a data entry form will call an “access denied” message.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Assign Users To Participants",
+    "Description": "When “need to know” is enabled this allows the user to assign users to specific participants so that the user can then access the Participant’s Participant Detail page and view the participant’s record.  Without this permission the user can use the participant search engine, select “assign user,” choose a start and end date, but the user will receive an “access denied” message after selecting the “assign selected staff” button.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Charge Participant Fee",
+    "Description": "this permission allows access to the Participant Search dropdown function “Charge Fee.” It allows the user to charge a participant fee through Participant Search. Without this function the user will be able to choose “charge fee” from the dropdown menu, hit “continue,” but when the user selects the “submit charge” function the user will get an “access denied” message.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Edit Participants",
+    "Description": "this permission allows the user to access the edit fields in Participant Detail.    Without this permission the user will get an “access denied” message when the user selects the green edit button for any participant data field within Participant Detail. It is important to note that not all the edit buttons in the Participant Management Module are part of Participant Management. Some of the edit buttons, (for example Household Members) take the user from the Participant Management Module to other Trax modules, and this permission has no effect on these edit functions.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Enroll Participant In Organization",
+    "Description": "this permission is required in order for the user to enroll persons into the organization and give them a membership",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Manage Participants",
+    "Description": "this permission allows the user access to the Manage Participants section of the Participant Management landing page where the user can merge duplicate participant records and manage engagement level goals.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Merge Participants",
+    "Description": "this permission allows the user to merge duplicate participant records (to access this function the user will also need the Can Manage Participants permission as this is a function within the Manage Participants section). Without this permission, the user can begin the process of merging participants and only get the “access denied” message after choosing two participant records and selecting “continue.”",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Print Participant Ids",
+    "Description": "this permission allows the user to print participant Ids. Without this permission the user can select the “quick print Ids” function from the Participant Search dropdown menu, select a template, but when the user selects “print” the user will get an “access denied” message.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Promote Participant Grade Level",
+    "Description": "this permission allows the user to promote a participant one school grade level through the dropdown menu in Participant Search.  This permission has no effect on access to the Academic Data section of the Participant Details page, and the user can update school data without this permission there.  Lack of this permission will only deny the user the ability of using the Promote to the Next Grade Level function in Participant Search.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Record Participant Attendance",
+    "Description": "this permission allows the user to record, edit and delete organizational and activity attendance through the Participant Search page, and the Program Management module. Without this permission the system prohibits the user from using the “record attendance” buttons for activities both in Programs/activities and Participant Detail.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Register Participants For Surveys",
+    "Description": "this permission allows the user to register participants for surveys through the Participant Search function.  Without this permission the user will receive the “access denied” message part way through the registration process.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can Send Participant Emails",
+    "Description": "this permission allows the user to send an email message to participant through the Participant Search dropdown menu function. This permission has no effect on email functions through the Survey Module or through MoneyTrax.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can View Confidential",
+    "Description": "this permission will allow the display of confidential information such as “School Lunch Program” participation, Social Security number, Household Income, Economic Status, Social Security Disability status, Social Security, Temporary Assistance to Needy Families, Food Stamps, General Assistance, Veteran’s Compensation, Medicare/Medicaid and Other Government Assistance.  Without this permission confidential fields are usually expressed by suppressed data fields that may be labeled “confidential” as opposed to an “Access Denied” message.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can View Participant Reports",
+    "Description": "this permission allows the viewing of reports from the Participant Report tab.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can View Participants",
+    "Description": "this permission allows access to the Participant Management Module and access to the Participant Details page through other Trax modules. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Can View PII",
+    "Description": "this permission allows user to access areas of Trax that contain Personably Identifiable Information (PII) and to gives access to users to view reports containing PII.  Without this permission users are severely limited on their ability to navigate Trax and perform tasks.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Case Admin",
+    "Description": "this permission allows the user access to the Admin option in the Case Management Module and access to all cases (unlike Case Manager role which only allows access to cases which the user is assigned specifically as a Case Manager).  A user can access and modify Lookup Values in the main Admin section without this permission.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Custom Reporting",
+    "Description": "allows access to the Custom reporting tab",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Report:After School Zone Report",
+    "Description": "allows access to the After School Zone Report report",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Report:Annual Scorecard",
+    "Description": "allows access to the Annual Scorecard report",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Report:Duplicate People Roster",
+    "Description": "allows access to the Duplicate People Roster report",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Report:Monthly Scorecard",
+    "Description": "allows access to the Online Transactions List report",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Participant",
+    "Permission": "Report:Online Transaction List",
+    "Description": "allows access to the Online Transactions List report",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Cancel Participants From Activities",
+    "Description": "Allows you access to the Cancel enrollment button in the activity roster page. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Drop Participants",
+    "Description": "Allows you acces to the drop button in the activity roster page. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Edit Activities",
+    "Description": "this permission allows the user to access the Activity Details page and to edit any non-participant related details of the activity.  This permission has no effect on the Roster, Waiting List, Events or Attendance tabs.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Edit Programs",
+    "Description": "this permission allows the user the ability to access the Program Details page and edit program information. Without this permission the user will not have access to “edit program” button found in the Programs header bar. This permission will not affect the Overview, Schedule, Documents, Links and Pictures tabs as these are controlled by separate permissions.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Enroll Participants In Activity",
+    "Description": "this permission allows the user the ability to enroll participants into activities.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Activity Events",
+    "Description": "Redundant since Can Schedule Activity is what grants the ability to create events. Nothing lets you edit them, not even CSA",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Enrollment",
+    "Description": "this permission allows the user to update the activity enrollment status through the Activity Management Roster and Enrollment History in the Participant Detail page. The user can manage enrollment status such as Enroll, Cancel, No Show, Drop and Remove participant from the activity.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Program Documents",
+    "Description": "this permission allows the user to add documents that are associated with a program. Without this permission the “access denied” message is displayed when user clicks the “Add a document” button.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Program Links",
+    "Description": "this permission allows the user to add/update links that are associated with a program.  Access Denied message is given when user clicks “Add a link” button.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Program Pictures",
+    "Description": "this permission allows the user to add images associated with a program. Access Without this permission the “access denied” message is given when user click the “Add a picture” button.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Programs",
+    "Description": "this permission allows user access to Program Directory where they can view Programs and Activities in the organization.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Manage Waiting List",
+    "Description": "Allows user to manage the Waiting List for activities",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can No Show Participants",
+    "Description": "Allows access to the No Show button in the activity roster assuming all 3 prerequestites",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Record Activity Attendance",
+    "Description": "Allows access to the record attendance/service button in the activity roster. As well as the enrollment history tab Actions menu of an activity. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can Schedule Activity",
+    "Description": "this permission allows the user to schedule an activity from the Program Details page. User will also need the Can View Activities permission, or he/she will not be able to access the Activity grid.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can View Activities",
+    "Description": "this permission allows the user to view the Activity information from the Program Schedule tab. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can View Program Reports",
+    "Description": "",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Programs",
+    "Permission": "Can View Programs",
+    "Description": "this permission allows the user to view the programs information landing page.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Allergies",
+    "Description": "Allows you to Add Staff Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Availability",
+    "Description": "Allows you to Add Staff Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Background Checks",
+    "Description": "Allows you to Add Staff Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Documents",
+    "Description": "Allows you to Add Staff Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Education",
+    "Description": "Allows you to Add Staff Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Employment History",
+    "Description": "Allows you to Add Staff Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Expenses",
+    "Description": "Allows you to Add Staff Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Medication",
+    "Description": "Allows you to Add Staff Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Military Records",
+    "Description": "Allows you to Add Staff Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff References",
+    "Description": "Allows you to Add Staff References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Reviews",
+    "Description": "Allows you to Add Staff Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Schedule",
+    "Description": "Allows you to Add Staff Schedule",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Tasks",
+    "Description": "Allows you to Add Staff Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Training",
+    "Description": "Allows you to Add Staff Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Staff Warnings",
+    "Description": "Allows you to Add Staff Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Allergies",
+    "Description": "Allows you to Add Volunteer Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Availability",
+    "Description": "Allows you to Add Volunteer Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Background Checks",
+    "Description": "Allows you to Add Volunteer Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Documents",
+    "Description": "Allows you to Add Volunteer Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Education",
+    "Description": "Allows you to Add Volunteer Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Employment History",
+    "Description": "Allows you to Add Volunteer Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Expenses",
+    "Description": "Allows you to Add Volunteer Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Medication",
+    "Description": "Allows you to Add Volunteer Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Military Records",
+    "Description": "Allows you to Add Volunteer Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer References",
+    "Description": "Allows you to Add Volunteer References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Reviews",
+    "Description": "Allows you to Add Volunteer Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Schedule",
+    "Description": "Allows you to Add Volunteer Schedules",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Tasks",
+    "Description": "Allows you to Add Volunteer Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Training",
+    "Description": "Allows you to Add Volunteer Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Add Volunteer Warnings",
+    "Description": "Allows you to Add Volunteer Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Allergies",
+    "Description": "Allows you to Delete Staff Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Availability",
+    "Description": "Allows you to Delete Staff Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Background Checks",
+    "Description": "Allows you to Delete Staff Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Documents",
+    "Description": "Allows you to Delete Staff Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Education",
+    "Description": "Allows you to Delete Staff Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Employment History",
+    "Description": "Allows you to Delete Staff Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Expenses",
+    "Description": "Allows you to Delete Staff Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Medication",
+    "Description": "Allows you to Delete Staff Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Military Records",
+    "Description": "Allows you to Delete Staff Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff References",
+    "Description": "Allows you to Delete Staff References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Reviews",
+    "Description": "Allows you to Delete Staff Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Schedule",
+    "Description": "Allows you to Delete Staff Schedule",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Tasks",
+    "Description": "Allows you to Delete Staff Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Training",
+    "Description": "Allows you to Delete Staff Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Staff Warnings",
+    "Description": "Allows you to Delete Staff Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Allergies",
+    "Description": "Allows you to Delete Volunteer Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Availability",
+    "Description": "Allows you to Delete Volunteer Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Background Checks",
+    "Description": "Allows you to Delete Volunteer Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Documents",
+    "Description": "Allows you to Delete Volunteer Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Education",
+    "Description": "Allows you to Delete Volunteer Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Employment History",
+    "Description": "Allows you to Delete Volunteer Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Expenses",
+    "Description": "Allows you to Delete Volunteer Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Medication",
+    "Description": "Allows you to Delete Volunteer Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Military Records",
+    "Description": "Allows you to Delete Volunteer Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer References",
+    "Description": "Allows you to Delete Volunteer References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Reviews",
+    "Description": "Allows you to Delete Volunteer Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Schedule",
+    "Description": "Allows you to Delete Volunteer Schedules",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Tasks",
+    "Description": "Allows you to Delete Volunteer Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Training",
+    "Description": "Allows you to Delete Volunteer Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Delete Volunteer Warnings",
+    "Description": "Allows you to Delete Volunteer Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Employees",
+    "Description": "Allows you to Edit Staffe records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff",
+    "Description": "Allows you to edit Staff recorods",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Allergies",
+    "Description": "Allows you to Edit Staff Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Availability",
+    "Description": "Allows you to Edit Staff Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Background Checks",
+    "Description": "Allows you to Edit Staff Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Documents",
+    "Description": "Allows you to Edit Staff Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Education",
+    "Description": "Allows you to Edit Staff Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Employment History",
+    "Description": "Allows you to Edit Staff Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Expenses",
+    "Description": "Allows you to Edit Staff Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Medication",
+    "Description": "Allows you to Edit Staff Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Military Records",
+    "Description": "Allows you to Edit Staff Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff References",
+    "Description": "Allows you to Edit Staff References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Reviews",
+    "Description": "Allows you to Edit Staff Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Schedule",
+    "Description": "Allows you to Edit Staff Schedule",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Tasks",
+    "Description": "Allows you to Edit Staff Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Training",
+    "Description": "Allows you to Edit Staff Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Staff Warnings",
+    "Description": "Allows you to Edit Staff Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Allergies",
+    "Description": "Allows you to Edit Volunteer Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Availability",
+    "Description": "Allows you to Edit Volunteer Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Background Checks",
+    "Description": "Allows you to Edit Volunteer Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Documents",
+    "Description": "Allows you to Edit Volunteer Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Education",
+    "Description": "Allows you to Edit Volunteer Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Employment History",
+    "Description": "Allows you to Edit Volunteer Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Expenses",
+    "Description": "Allows you to Edit Volunteer Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Medication",
+    "Description": "Allows you to Edit Volunteer Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Military Records",
+    "Description": "Allows you to Edit Volunteer Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer References",
+    "Description": "Allows you to Edit Volunteer References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Reviews",
+    "Description": "Allows you to Edit Volunteer Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Schedule",
+    "Description": "Allows you to Edit Volunteer Schedules",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Tasks",
+    "Description": "Allows you to Edit Volunteer Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Training",
+    "Description": "Allows you to Edit Volunteer Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteer Warnings",
+    "Description": "Allows you to Edit Volunteer Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Edit Volunteers",
+    "Description": "Allows you to Edit Volunteer records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Preview Staff Documents",
+    "Description": "Allows you to Preview Staff Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Preview Volunteer Documents",
+    "Description": "Allows you to Preview Volunteer Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Print Staff Ids",
+    "Description": "Allows you to print Staff Id Cards for assigned organizations",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can Print Volunteer Ids",
+    "Description": "Allows you to print Volunteer Id Cards for assigned organizations",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff",
+    "Description": "Allows you to view Staff records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Allergies",
+    "Description": "Allows you to View Staff Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Availability",
+    "Description": "Allows you to View Staff Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Background Checks",
+    "Description": "Allows you to View Staff Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Contacts",
+    "Description": "Allows you to View Staff Contacts",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Documents",
+    "Description": "Allows you to View Staff Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Education",
+    "Description": "Allows you to View Staff Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Employment History",
+    "Description": "Allows you to View Staff Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Expenses",
+    "Description": "Allows you to View Staff Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Medication",
+    "Description": "Allows you to View Staff Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Military Records",
+    "Description": "Allows you to View Staff Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Overview",
+    "Description": "Allows you to View the Staff Overview page",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Personal",
+    "Description": "Allows you to View Staff Personal",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff References",
+    "Description": "Allows you to View Staff References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Reviews",
+    "Description": "Allows you to View Staff Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Schedule",
+    "Description": "Allows you to View Staff Schedule",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Surveys",
+    "Description": "Allows you to view Staff Surveys",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Tasks",
+    "Description": "Allows you to View Staff Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Training",
+    "Description": "Allows you to View Staff Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Staff Warnings",
+    "Description": "Allows you to View Staff Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Allergies",
+    "Description": "Allows you to View Volunteer Allergies",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Availability",
+    "Description": "Allows you to View Volunteer Availability",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Background Checks",
+    "Description": "Allows you to View Volunteer Background Checks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Contacts",
+    "Description": "Allows you to View Volunteer Contacts",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Documents",
+    "Description": "Allows you to View Volunteer Documents",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Education",
+    "Description": "Allows you to View Volunteer Education records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Employment History",
+    "Description": "Allows you to View Volunteer Employment History",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Expenses",
+    "Description": "Allows you to View Volunteer Expenses",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Medication",
+    "Description": "Allows you to View Volunteer Medication records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Military Records",
+    "Description": "Allows you to View Volunteer Military Records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Overview",
+    "Description": "Allows you to View the Volunteer Overview page",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Personal",
+    "Description": "Allows you to View Volunteer Personal",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer References",
+    "Description": "Allows you to View Volunteer References",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Reviews",
+    "Description": "Allows you to View Volunteer Reviews",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Schedule",
+    "Description": "Allows you to View Volunteer Schedule",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Surveys",
+    "Description": "Allows you to view Volunteer Surveys",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Tasks",
+    "Description": "Allows you to View Volunteer Tasks",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Training",
+    "Description": "Allows you to View Volunteer Training records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteer Warnings",
+    "Description": "Allows you to View Volunteer Warnings",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Can View Volunteers",
+    "Description": "Allows you to edit Volunteer records",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Staff Manager",
+    "Description": "Allows you to Manager",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Volunteer Manager",
+    "Description": "Allows you to Manager",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Staff And Volunteer",
+    "Permission": "Volunteer Manager Notify",
+    "Description": "Allows you to receive notifications",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Add Survey",
+    "Description": "This permission allows the user to create a new Survey in the Survey Management Module. Without this permission the User will receive the following message when clicking “Create New Survey” ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Add Template",
+    "Description": "this permission allows the user to convert an extant survey into a template.  The user is alerted by the permissions message after clicking the “Create Template” button. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Can Manually Complete Response",
+    "Description": "Allows you to finish the process for a specific survey",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Can View Survey Table Of Contents",
+    "Description": "Can access a respondents survey with page and questions answered",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Close Survey",
+    "Description": "this permission allows the user to close out the active period of the survey.  Without this permission the “close” command in the Survey Detail page is deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Design Surveys",
+    "Description": "this permission allows the user to create and modify surveys and survey templates.  Without this permission the “Create Surveys” and “Manage Templates” are deactivated on the SurveyTrax landing page, as are the “Design,” “View Template,” and “View Details” buttons on the Manage Surveys page.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Export Survey Results",
+    "Description": "this permission allows the user to export survey results into other formats.  Without this permission the “Export Survey Answers” option on the Survey Detail page is deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Export Surveys",
+    "Description": "Allows users to export Survey Results",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Manage Survey Distribution",
+    "Description": "this permission allows access to the distribution option on the Survey Detail page.  Without this permission the Distribution option is deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Manage Survey Questions",
+    "Description": "this permission allows access to the Survey Questions option on the Survey Details page.  Without this permission the Survey Questions option is deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Manage Survey Scoring",
+    "Description": "this permission allows the user access to the Survey Scoring option on the Survey Detail page, where the user can set answer values for questions and create metrics based on survey questions.  Without this permission the Survey Scoring option will be deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Print Survey",
+    "Description": "this permission allows the user to access the Print Survey options on the Survey Detail page.  Lack of this permission disables the option.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Publish Survey",
+    "Description": "this permission allows the user to publish a Survey for Distribution (activating the survey).  Without this permission the “Publish” command on the Survey Detail page will be deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Recall Survey",
+    "Description": "this permission allows the user to recall the Survey from publication if changes need to be made to the survey (reminder; recalling the survey will delete any data accumulated prior to the recall) .  Without this permission the Recall command on the Survey Detail page is deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Remove Survey",
+    "Description": "there are two areas in SurveyTrax where the user can remove or delete a survey; there is a “Delete” button in the Manage Surveys grid, and there is a Remove Survey command on the Survey Detail page.  This permission allows the user access to either of these.  Without this permission both the Delete button and the Remove command will be deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Kiosk",
+    "Description": "this permission allows the user to access the survey kiosy for data input via the staff or individual taking the surevey.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Options Appearance",
+    "Description": "this permission allows access to the Appearance tab of the Survey Options option on the Survey Detail page.  Without this permission the Appearance tab will not display.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Options Collection",
+    "Description": "this permission allows access to the Collection tab of the Survey Options option on the Survey Detail page. Without this permission the Collection tab will not display.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Options Exclusion",
+    "Description": "this permission allows access to the Exclusion tab of the Survey Options option on the Survey Detail page. Without this permission the Exclusion tab will not display.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Options Linked Surveys",
+    "Description": "this permission allows access to the Linked Surveys tab of the Survey Options option on the Survey Detail page. Without this permission the Linked Surveys tab will not display.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Options Security",
+    "Description": "this permission allows access to the Security tab of the Survey Options option on the Survey Detail page. Without this permission the Security tab will not display.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "Survey Options Settings",
+    "Description": " this permission allows access to the Settings tab of the Survey Options option on the Survey Detail page. Without this permission the Settings tab will not display.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Survey Management",
+    "Permission": "View Survey Reports",
+    "Description": "this permission allows the user access to the Reports option on the SurveyTrax landing page.  Without this permission the Reports option is deactivated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "Trax Attendance Manager",
+    "Permission": "Trax Attendance Manager Admin",
+    "Description": "Allows you to register TAM device(s) for the organization.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "TraxTalk",
+    "Permission": "Can Manage TraxTalk Users",
+    "Description": "Placeholder Permission",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "TraxTalk",
+    "Permission": "TraxTalk Administrator",
+    "Description": "Placeholder Permission",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "TraxTalk",
+    "Permission": "TraxTalk Can Send Email",
+    "Description": "Placeholder Permission",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "TraxTalk",
+    "Permission": "TraxTalk Can Send SMS",
+    "Description": "Placeholder Permission",
+    "Display": "FALSE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Add Users",
+    "Description": "Allow the user to add additional users to his/her organization. Without this permission the “add user” button will not display on the Manage User Access page.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Apply User Batch Actions",
+    "Description": "this permission allows the user to perform search actions on multiple users at once. i.e., enroll participants, send emails, etc.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Manage User Groups",
+    "Description": "this permission allows the user to create/edit groups of permissions customized to user tasks. Without this permission the “Manage User Groups” values will not appear in the Admin dropdown menu and the user will get an “Access Denied” message is she/he tries to access the module through the Admin home page.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Manage User Organizations",
+    "Description": "this permission allows the user access to the Organization Management Module.  Without this permission the Manage Organization value is suppressed from the Admin dropdown and the Manage Organizations icon in the Admin homepage is de-activated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Manage User Permissions",
+    "Description": "this permission allows the user to manager user permissions and assign security groups. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Manage User Roles",
+    "Description": "this permission allows the user to add roles/permissions to a user.  Without this permission an “access denied” message is displayed after clicking the “Manage” button at the bottom of the permissions grid.  ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Manage Users",
+    "Description": "this permission allows the user access to the User Management Module where the user can manage Trax user accounts. Without this permission the “Manage Users” values will not display in the Admin dropdown menu and the Manage Users icon in the Admin homepage will be de-activated.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can Update User",
+    "Description": "this permisison allows the user to update user information. ",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can View All Users",
+    "Description": "this permission allows the user to view all users at all sites.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can View Surveys",
+    "Description": "this permission allows the user to view surveys through the Manage Surveys grid.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can View User Participant Assignments",
+    "Description": "this permission allows the user to view the participants to which a user is assigned.",
+    "Display": "TRUE"
+  },
+  {
+    "Category": "User Management",
+    "Permission": "Can View User Profiles",
+    "Description": "allow the user to view user profiles in Admin.",
+    "Display": "TRUE"
+  }
+]
